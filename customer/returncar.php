@@ -23,17 +23,17 @@ $conn = Connect();
         ?>
         <nav>
             <ul>
-                <li><a class="nav-bar" href="index.php">Home</a></li>
+                <li><a class="nav-bar" href="../home/index.php">Home</a></li>
                 <li><a class="nav-bar" href="#">Welcome
                         <?php echo $_SESSION['login_agency']; ?>
                     </a>
                 </li>
 
-                <li><a class="nav-bar" href="addcar.php">Add Car</a></li>
-                <li><a class="nav-bar" href="agencyview.php">View Booked Cars</a></li>
+                <li><a class="nav-bar" href="../agency/addcar.php">Add Car</a></li>
+                <li><a class="nav-bar" href="../agency/agencyview.php">View Booked Cars</a></li>
 
-                <li><a class="nav-bar" href="about.php">About US</a></li>
-                <li><a class="nav-bar" href="logout.php">Logout</a></li>
+                <li><a class="nav-bar" href="../home/about.php">About US</a></li>
+                <li><a class="nav-bar" href="../config/logout.php">Logout</a></li>
             </ul>
         </nav>
         <?php
@@ -41,15 +41,15 @@ $conn = Connect();
         ?>
             <nav>
                 <ul>
-                    <li><a class="nav-bar" href="index.php">Home</a></li>
+                    <li><a class="nav-bar" href="../home/index.php">Home</a></li>
                     <li><a class="nav-bar" href="#">Welcome
                         <?php echo $_SESSION['login_customer']; ?>
                         </a></li>
 
                     <li><a class="nav-bar" href="prereturncar.php">Return Now</a></li>
                     <li><a class="nav-bar" href="mybookings.php"> My Bookings</a></li>
-                    <li><a class="nav-bar" href="about.php">About US</a></li>
-                    <li><a class="nav-bar" href="logout.php">Logout</a></li>
+                    <li><a class="nav-bar" href="../home/about.php">About US</a></li>
+                    <li><a class="nav-bar" href="../config/logout.php">Logout</a></li>
                 </ul>
             </nav>
         <?php
@@ -57,10 +57,10 @@ $conn = Connect();
         ?>
             <nav>
                 <ul>
-                    <li><a class="nav-bar" href="index.php">Home</a></li>
-                    <li><a class="nav-bar" href="agency_login.php">Agency Login</a></li>
+                    <li><a class="nav-bar" href="../home/index.php">Home</a></li>
+                    <li><a class="nav-bar" href="../agency/agency_login.php">Agency Login</a></li>
                     <li><a class="nav-bar" href="customer_login.php">Customer Login</a></li>
-                    <li><a class="nav-bar" href="about.php">About US</a></li>
+                    <li><a class="nav-bar" href="../home/about.php">About US</a></li>
                 </ul>
             </nav>
         <?php
